@@ -70,7 +70,7 @@ public class FirstPersonAudio : MonoBehaviour
         {
             if (crouch && crouch.IsCrouched)
             {
-                SetPlayingMovingAudio(crouchedAudio);
+                //SetPlayingMovingAudio(crouchedAudio);
             }
             else if (character.IsRunning)
             {
